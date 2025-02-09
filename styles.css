@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/watercolor-international-cat-day-background_52683-87617.jpg?t=st=1739111615~exp=1739115215~hmac=852932fb41369e14b4f175bbe69af0926c2349d8b67b5da4cef533d763b0a568&w=900');
+    background-size: contain; /* Ensures the full image is visible */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header_text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 42px;
+    font-weight: bold;
+    color: #D2042D;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gif_container img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #D2042D;
+    padding: 15px 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #D2042D;
+    color: white;
+    transform: scale(1.05);
+}
+
+#noButton {
+    position: absolute;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
